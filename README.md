@@ -22,29 +22,29 @@ This project uses U.S. Census Bureau data to predict high and low income earners
 - **Primary Target:** Segment 1 (Main Workforce), representing 51% of the population with the highest income probability.
   
 ### Requirements
-Use Python and a jupyter notebook either locally or on Google Colab (Recommended)
+- Use Python and a jupyter notebook either locally or on Google Colab (Recommended)
 
 Libraries to be installed and imported (pip install library_name):
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import scorecardpy as sc
-import statsmodels.api as sm
-from statsmodels.stats.outliers_influence import variance_inflation_factor
-from sklearn.feature_selection import RFECV, SelectFromModel
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import StratifiedKFold, train_test_split, GridSearchCV
-from sklearn.metrics import classification_report, f1_score, roc_auc_score
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.metrics import roc_curve, auc, accuracy_score, f1_score, confusion_matrix
-import seaborn as sns
-import joblib
-from sklearn.svm import SVC
-from sklearn.ensemble import RandomForestClassifier
-from xgboost import XGBClassifier
-import torch
-import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader
-import warnings
+- import pandas as pd
+- import numpy as np
+- import matplotlib.pyplot as plt
+- import scorecardpy as sc
+- import statsmodels.api as sm
+- from statsmodels.stats.outliers_influence import variance_inflation_factor
+- from sklearn.feature_selection import RFECV, SelectFromModel
+- from sklearn.linear_model import LogisticRegression
+- from sklearn.model_selection import StratifiedKFold, train_test_split, GridSearchCV
+- from sklearn.metrics import classification_report, f1_score, roc_auc_score
+- from sklearn.preprocessing import StandardScaler, OneHotEncoder
+- from sklearn.compose import ColumnTransformer
+- from sklearn.pipeline import Pipeline
+- from sklearn.metrics import roc_curve, auc, accuracy_score, f1_score, confusion_matrix
+- import seaborn as sns
+- import joblib
+- from sklearn.svm import SVC
+- from sklearn.ensemble import RandomForestClassifier
+- from xgboost import XGBClassifier
+- import torch
+- import torch.nn as nn
+- from torch.utils.data import Dataset, DataLoader
+- import warnings
