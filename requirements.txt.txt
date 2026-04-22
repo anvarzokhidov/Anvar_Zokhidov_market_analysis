@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+scorecardpy
+statsmodels
+scikit-learn
+seaborn
+joblib
+xgboost
+torch
+umap-learn
